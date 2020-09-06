@@ -17,6 +17,9 @@
 10.compare prediction<br>
 11.conclusion and future<br>
 
+## data 1: Add technical indicators
+## data 2: Raw data
+
 ##  technical indicators
  
  Stochastic Relative Strength Index (StoRSI) and RSI<br>
