@@ -19,23 +19,23 @@
 
 ##  technical indicators
  
- Stochastic Relative Strength Index (StoRSI) and RSI
- %K and %D
- Chaikin Money Flow(CMF)
- Parabolic SAR
- Rate of Change
- Volume Weighted Average Price (VWAP)
- Momentum 10Days
- Moving Average Convergence Divergence(MACD)
- Average Directional Movement Index (ADX)
- Williams %R
- The Ichimoku Cloud
-    Conversion Line
-    Base Line
-    Leading Span A
-    Leading Span B
-    Cloud(Leading Span A, Leading Span B)
-### Bollinger Bands
+ Stochastic Relative Strength Index (StoRSI) and RSI<br>
+ %K and %D<br>
+ Chaikin Money Flow(CMF)<br>
+ Parabolic SAR<br>
+ Rate of Change<br>
+ Volume Weighted Average Price (VWAP)<br>
+ Momentum 10Days<br>
+ Moving Average Convergence Divergence(MACD)<br>
+ Average Directional Movement Index (ADX)<br>
+ Williams %R<br>
+ The Ichimoku Cloud<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conversion Line<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Base Line<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Leading Span A<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Leading Span B<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cloud(Leading Span A, Leading Span B)<br>
+Bollinger Bands<br>
 
 # split data, (train, val, test)
 ### 30 data for test<br>
@@ -53,10 +53,11 @@
 
 # Evaluation, Conclusion and Future
 ## Data 1 the gap of previous day prediction
-![data1_gap]
-(https://github.com/Bucky-Cheng/raw/blob/master/data1_gap.png)
+![image](https://github.com/Bucky-Cheng/Stock-Prediction-LSTM-AAPL/blob/master/data1_gap.png)
+Data 1 MSE:0.0005706506187007371
 ## Data 2 the gap of previous day prediction
-
+![image](https://github.com/Bucky-Cheng/Stock-Prediction-LSTM-AAPL/blob/master/data2_gap.png)
+Data 2 MSE:0.0008784179054824572
 ### The line chart illustrate the difference clearly. The data1 is much better than data2, and data2 line is like a stright line after 5th, which have not any help, the price will remain same as previous day. So, the technical indiacators are prvide the meaningful features for the price predication.
 
 ### But, there are some problems, the trend can't remain the one direction 2days, like the 13th-15th, when up to 14th from 13th, the trend change the direction to bottom, but the truth remian upward. And the 20th, the price has a big rising, but model can not to predict this big rising, and this the limitation of the dataset which only have price.
@@ -64,6 +65,14 @@
 ### The model can not to predict big suddenly increasing, so I think we need to use the News or Filings to identify this situation, the 20th is 30/07/2020, and Apple reported Third Quarter Results Reports, which is called a historically strong quarter, a lot of News report this and all have the positive sentiments, for example, the News of CNBC which said "Apple posts blowout third quarter, with sales up 11% despite coronavirus disruptions "(URL: https://www.cnbc.com/2020/07/30/apple-aapl-earnings-q3-2020.html).
 
 ### So, I believe the News, filings and reports are significant features for stock predication, and I will using NLP to research it ,for example use BERT to analysis sentiments.
+
+## Data 1 price prediction
+![image](https://github.com/Bucky-Cheng/Stock-Prediction-LSTM-AAPL/blob/master/data1_price.png)
+Data 1 Close Price MSE:90.61528315553844
+## Data 2 price prediction
+![image](https://github.com/Bucky-Cheng/Stock-Prediction-LSTM-AAPL/blob/master/data2_price.png)
+Data 2 Close Price MSE:135.424431323489
+
 
 ## Conclusion
 ### The difference between different data is very clearly. And it shows the data 1 option 1 has the best score.The data 1 option 1 has technical indicators and rebuild to the gap of previous dayCclose Price, Adj Close Price, and to predict the gap of previous day.
