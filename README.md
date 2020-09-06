@@ -53,7 +53,8 @@
 
 # Evaluation, Conclusion and Future
 ## Data 1 the gap of previous day prediction
-
+![data1_gap]
+(https://github.com/Bucky-Cheng/raw/blob/master/data1_gap.png)
 ## Data 2 the gap of previous day prediction
 
 ### The line chart illustrate the difference clearly. The data1 is much better than data2, and data2 line is like a stright line after 5th, which have not any help, the price will remain same as previous day. So, the technical indiacators are prvide the meaningful features for the price predication.
