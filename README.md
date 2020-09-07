@@ -17,7 +17,7 @@ if load fail on the github, please go to this link to see the code online: https
 10.compare prediction<br>
 11.conclusion and future<br>
 
-## data 1: Add technical indicators
+# data 1: Add technical indicators
 
 Date<br>
 Open<br>
@@ -25,7 +25,9 @@ High<br>
 Close<br>
 Adj Close<br>
 Day of week<br>
-Close price 11days mean<br>
+Close price mean<br>
+Close price Variance<br>
+Close price tandard deviation<br>
 ##  technical indicators
  
  Stochastic Relative Strength Index (StoRSI) and RSI<br>
@@ -46,7 +48,7 @@ Close price 11days mean<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cloud(Leading Span A, Leading Span B)<br>
 Bollinger Bands<br>
 
-## data 2: Raw data
+# data 2: Raw data
 Date<br>
 Open<br>
 High<br>
