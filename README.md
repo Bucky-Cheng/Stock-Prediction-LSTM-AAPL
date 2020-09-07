@@ -4,7 +4,7 @@ if load fail on the github, please go to this link to see the code online: https
 
 ## Compare the consequent wheather using some Technical Indicators
 ## Compare the consequent the price gap prediction and MinMAXScaler Price prediction
-
+### pipeline
 1.import data<br>
 2.data cleaning<br>
 3.add technical indicators<br>
