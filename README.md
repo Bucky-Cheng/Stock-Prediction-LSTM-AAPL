@@ -1,5 +1,5 @@
 # Stock-Prediction-LSTM-AAPL
-if load fail on the github, please go to this link to see the code online: https://nbviewer.jupyter.org/github/Bucky-Cheng/Stock-Prediction-LSTM-AAPL/blob/master/LSTM_Stock_AAPL_G_1.ipynb
+if loading fail on the github, please go to this link to see the code online: https://nbviewer.jupyter.org/github/Bucky-Cheng/Stock-Prediction-LSTM-AAPL/blob/master/LSTM_Stock_AAPL_G_1.ipynb
 # Predict AAPL Stock Close Price
 
 ## Compare the consequent wheather using some Technical Indicators
