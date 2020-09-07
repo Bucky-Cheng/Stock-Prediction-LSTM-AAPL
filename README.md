@@ -18,8 +18,14 @@ if load fail on the github, please go to this link to see the code online: https
 11.conclusion and future<br>
 
 ## data 1: Add technical indicators
-## data 2: Raw data
 
+Date<br>
+Open<br>
+High<br>
+Close<br>
+Adj Close<br>
+Day of week<br>
+Close price 11days mean<br>
 ##  technical indicators
  
  Stochastic Relative Strength Index (StoRSI) and RSI<br>
@@ -40,6 +46,12 @@ if load fail on the github, please go to this link to see the code online: https
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cloud(Leading Span A, Leading Span B)<br>
 Bollinger Bands<br>
 
+## data 2: Raw data
+Date<br>
+Open<br>
+High<br>
+Close<br>
+Adj Close<br>
 # split data, (train, val, test)
 ### 30 data for test<br>
 ### 1 data for val<br>
