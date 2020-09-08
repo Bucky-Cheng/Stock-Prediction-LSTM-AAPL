@@ -38,7 +38,7 @@ Close price tandard deviation<br>
  Volume Weighted Average Price (VWAP)<br>
  Momentum 10Days<br>
  Moving Average Convergence Divergence(MACD)<br>
- Average Directional Movement Index (ADX)<br>
+ Average Directional Movement Index (ADX) <br>
  Williams %R<br>
  The Ichimoku Cloud<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conversion Line<br>
