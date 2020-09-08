@@ -11,7 +11,7 @@ if loading fail on the github, please go to this link to see the code online: ht
 4.technical indicators visualization<br>
 5.technical indicators interpretation<br>
 6.more feature engineering<br>
-7.rebuild dataset, split train/val/test set<br>
+7.rebuild dataset, split train/val/test set <br>
 8.create model(LSTM)<br>
 9.train model, prediction<br>
 10.compare prediction<br>
